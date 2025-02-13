@@ -137,7 +137,7 @@ export const HomePage = ()=>{
     return (
         <>
         <Box>
-            <input type="text" value={searchedValue} onChange={(event)=>setSearchedValue(event?.target?.value)}/>
+            <input type="text" placeholder="  Search the tasks" value={searchedValue} onChange={(event)=>setSearchedValue(event?.target?.value)}/>
             <select name="assignedTo" value={filterdValue} onChange={(event)=>setFilteredValue(event?.target?.value)}>
             <option value={""}>All</option>
                 {
