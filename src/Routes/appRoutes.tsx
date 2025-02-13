@@ -11,10 +11,7 @@ export const AppRoutes: React.FC = () => {
             <BrowserRouter>
                 <Routes>
                     <Route element={<AppLayout />}>
-                        <Route path={Path.HOME} element={<h4>Home Page</h4>} />
-                        <Route path={Path.AddEVENT} element={<Screens.Event />} />
-                        <Route path={Path.EDITEVENT} element={<Screens.Event />} />
-                        <Route path={Path.EVENTSLIST} element={<Screens.EventsList />} />
+                        <Route path={Path.HOME} element={<Screens.HomePage/>} />
                     </Route>
                 </Routes>
             </BrowserRouter>
